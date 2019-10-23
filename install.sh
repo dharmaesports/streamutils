@@ -1,1 +1,1 @@
-pip install ffmpeg
+pip install ffmpeg-python
