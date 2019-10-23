@@ -12,6 +12,6 @@ A project to help Dharma Esports do various stream activities. Currently this ho
 
 1. Edit `splits` to be the chunks you want to split the video into. Each row is in this format: (beginning timestamp, ending timestamp, video description).
 
-1. Edit `output_base` to be the tournament name (or whatever you want to be at the beginning of each video).
+1. Edit `output_base` to be the tournament name (or whatever you want to be at the beginning of the title for each video).
 
 1. Run 'python split.py' in a terminal window in the same directory as this code.
