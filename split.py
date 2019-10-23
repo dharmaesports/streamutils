@@ -1,6 +1,7 @@
 import ffmpeg
 
-# each pair of timestamps will end up in its own video
+# each row will end up in its own video
+# each row is in the format (beginning timestamp, ending timestamp, description)
 # timestamps are in format 'hh:mm:ss'
 splits = [
     ('00:00:00', '03:03:05', 'A Vs B'),
