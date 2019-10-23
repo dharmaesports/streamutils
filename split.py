@@ -1,3 +1,5 @@
+import ffmpeg
+
 # each int in this array is a second to split on; will start at the first entry,
 # so it should probably start with 0; it will go from the last entry to the end
 # of the video
@@ -13,8 +15,6 @@ input_filename = 'Diamond in the puff 1.mkv'
 output_base = 'DITP1 Melee Singles'
 output_extension = '.mp4'
 
-
-import ffmpeg
 
 num_splits = len(splits_in_seconds)
 print(num_splits)
