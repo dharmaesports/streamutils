@@ -4,11 +4,9 @@ A project to help Dharma Esports do various stream activities. Currently this ho
 
 1. Download this code from github (if you download as a zip file, extract all files).
 
-1. Copy the VoD you want to split into the same folder as this code.
+1. Copy the VoD you want to split into the same folder as the downloaded code.
 
-1. Install dependencies by running `bash install.sh` in a terminal window (this assumes you have pip installed).
-
-1. Copy the VoD you want to split into the same folder as this code.
+1. Install dependencies by running `bash install.sh` in a terminal window in the same folder as the downloaded code (this assumes you have pip installed).
 
 1. Edit `input_filename` in split.py to be the name of your VoD file.
 
